@@ -265,8 +265,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 412b92d4feeb9c548bfa98f62c4d1022, type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 412b92d4feeb9c548bfa98f62c4d1022, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 5097dfd6272dc6049b1c54a14d7fd4ba, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 412b92d4feeb9c548bfa98f62c4d1022, type: 2}
   m_IsPrefabParent: 0
@@ -451,6 +455,19 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100096, guid: 412b92d4feeb9c548bfa98f62c4d1022, type: 2}
   m_PrefabInternal: {fileID: 850635576}
+--- !u!136 &1874452610
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1874452609}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.39142406
+  m_Height: 1.614965
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.7595959, z: 0}
 --- !u!114 &1874452614
 MonoBehaviour:
   m_ObjectHideFlags: 0
