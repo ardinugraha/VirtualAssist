@@ -17,7 +17,7 @@ public class SceneController : Singleton<SceneController>
 	// Use this for initialization
 	void Start () {
         Model = GameObject.Find("Model");
-        Model.SetActive(false);
+        //Model.SetActive(false);
 	}
 	
 	// Update is called once per frame

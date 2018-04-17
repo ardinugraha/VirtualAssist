@@ -28,7 +28,6 @@ public class FaceUpdate : MonoBehaviour
 
 	void Update ()
 	{
-
 		if (Input.GetMouseButton (0)) {
 			current = 1;
 		} else {

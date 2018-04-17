@@ -4,8 +4,9 @@ using UnityEngine;
 using HoloToolkit.Unity.InputModule;
 using HoloToolkit.Sharing;
 using HoloToolkit.Unity;
+using VA.App.Scripts;
 
-public class BeamManager : MonoBehaviour {
+public class BeamManager : MonoBehaviour,IInputClickHandler {
 
     private SceneController sceneController;
 	// Use this for initialization
@@ -22,7 +23,7 @@ public class BeamManager : MonoBehaviour {
 
     public void OnInputClicked(InputClickedEventData eventData)
     {
-        GameObject model = SceneController.Instance.Model;
-        ModelController modelController = model.GetComponent<ModelController>();
+        SceneController.Instance.Model.GetComponent<ModelController>().beamState = BeamState.Inactive;
+        Debug.Log("lol");
     }
 }

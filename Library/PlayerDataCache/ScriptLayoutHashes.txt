@@ -1,8 +1,8 @@
 Metro
 PlayerPath?
-D:/Unity Projects/Mine/Proj1/Proj1/UWP
+D:/Unity Projects/Mine/ProjGit/VirtualAssist/UWP
 SceneListBegin?
-Assets/Scene/Map1.unity
+Assets/Scenes/Map1.unity
 SceneListEnd?
 7abde016883951c4ca4e7c44ce6adb2c Assembly-CSharp.dll:HoloToolkit.Unity.SceneLauncher
 2fb39702360b86b0d9d52bce766883c8 Assembly-CSharp.dll:GLTF.GLTFComponent
@@ -274,6 +274,7 @@ bffc879e328df7088b4672067d06833b Assembly-CSharp.dll:HoloToolkit.Unity.UX.LinePa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.SharingWithUNET.ResetAnchorButton
 7af9546644a163574e9d4ff26d86b8f2 Assembly-CSharp.dll:HoloToolkit.Unity.FadeManager
 c33d01c4bc5af79105f862d8a2f08cdf Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.ButtonIconProfileTexture
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BeamManager
 7a65adebc9a24f885fe1434a888037a0 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.InteractionInputSource
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SapphiArtChan_AnimManager
 79ea2539be46d0f8789fb3c3b06c3c37 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.ObjectButton
@@ -290,9 +291,11 @@ c33d01c4bc5af79105f862d8a2f08cdf Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.B
 f133614bc5eb7ed8e7fb906136387ff4 Assembly-CSharp.dll:HoloToolkit.Unity.SpatialMapping.SpatialMappingObserver
 7f51c3ae6d2a735d8137d211eefae86d Assembly-CSharp.dll:HoloToolkit.Unity.Tagalong
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.SharingWithUNET.PositionDebugButton
+922a95c4b25dc77eb472046103c08e9e Assembly-CSharp.dll:.ModelController
 c484ca1fbf03cde4786f8ffa4334186d Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.InteractiveMeshCursor
 fad8dbf1251c6c663ef61aa4876f6776 Assembly-CSharp.dll:HoloToolkit.UI.Keyboard.Keyboard
 cade32f28e21a5f2370dd82c3d56c28c Assembly-CSharp.dll:HoloToolkit.Unity.SceneLauncherButton
+df1a55ec55624826e20eebf9af9b1d5e Assembly-CSharp.dll:.SceneController
 b48597bac756ea53cecb08fc53de8b9f Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.ButtonTextProfile
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.SetGlobalListener
 39e33eeaa8482d2bae989c16b9871dff Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.MeshCursor
